@@ -5,7 +5,7 @@ RUN yum -y install \
         openssl-devel \
         pcre-devel \
         tar \
-        zlib-devel
+        zlib-devel \
         libevent-devel \
         python-backports-lzma \
         python-devel \
