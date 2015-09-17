@@ -46,7 +46,6 @@ RUN \
   cd / && \
   git clone git://github.com/ariya/phantomjs.git && \
   cd phantomjs && \
-  git checkout 2.0 && \
   echo y | ./build.sh && \
   cp -f bin/phantomjs /usr/local/bin/phantomjs && \
   cd / && \
